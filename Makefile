@@ -16,7 +16,9 @@ SRCS        = $(SRC_DIR)/ft_printf.c \
               $(CONV_DIR)/ft_print_u.c \
               $(CONV_DIR)/ft_print_x.c
 
-OBJS        = $(SRCS:.c=.o)
+OBJS = $(SRCS:.c=.o)
+
+all: $(NAME)
 
 bonus: $(NAME)
 
